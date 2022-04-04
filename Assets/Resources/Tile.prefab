@@ -115,5 +115,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5f4cee5c791bc41aefa257fb73cc69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 0}
-  activeMovingObject: 0
