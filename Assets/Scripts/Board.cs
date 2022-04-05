@@ -25,9 +25,9 @@ public class Board : MonoBehaviour
         foreach (Transform item in _board)
         {
             boardTile.Add(item.gameObject);
-            int random = Random.Range(0, _spriteTile.Length);
-            item.name = random.ToString();
-            item.GetComponent<Image>().sprite = _spriteTile[random];
+            // int random = Random.Range(0, _spriteTile.Length);
+            // item.name = random.ToString();
+            // item.GetComponent<Image>().sprite = _spriteTile[random];
         }
     }
 }

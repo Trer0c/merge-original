@@ -6,7 +6,8 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
     public int scoreCount;
-    
+    public int availableTileIndex;
+
     private void Awake()
     {
         if(instance == null)
@@ -14,5 +15,6 @@ public class DataManager : MonoBehaviour
             instance = this;
         }
         scoreCount = 0;
+        availableTileIndex = 0;
     }
 }
