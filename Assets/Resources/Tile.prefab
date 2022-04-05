@@ -115,3 +115,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5f4cee5c791bc41aefa257fb73cc69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spriteTile:
+  - {fileID: 21300000, guid: 2f0b2c1fe8394f8459b223f56add093f, type: 3}
+  - {fileID: 21300000, guid: ce48b63c1948e5d488fa945dd1e28936, type: 3}
+  - {fileID: 21300000, guid: 3b10b572d2942df46ab7aec4c5559738, type: 3}
+  - {fileID: 21300000, guid: 2b8c1dfea0a42354b9c8f4907038e108, type: 3}
+  - {fileID: 21300000, guid: a0c9552de46a4094ba2fe50868dbcf04, type: 3}
+  - {fileID: 21300000, guid: 697a622fd559a8f468a49470419cfe6e, type: 3}
+  - {fileID: 21300000, guid: cb872def1d811a84e91fdcddf226be01, type: 3}
+  - {fileID: 21300000, guid: 753d12e86939d844482bdead95acbc6d, type: 3}
+  - {fileID: 21300000, guid: 94a26068acbfdde4c962543ef499a3de, type: 3}

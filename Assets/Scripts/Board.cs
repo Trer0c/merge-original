@@ -5,30 +5,29 @@ using UnityEngine.UI;
 
 public class Board : MonoBehaviour
 {
+    public static Board instance;
+    public List<GameObject> boardTile = new List<GameObject>();
     [SerializeField] private Sprite[] _spriteTile;
-    [SerializeField] private List<GameObject> _boardTile = new List<GameObject>();
-    [SerializeField] private GameObject _tile;
     [SerializeField] private Transform _board;
-    private Vector3 _direction;
+
+
     private void Start()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
         Spawn();
-        _direction = new Vector3(-420, -560, 0);
     }
 
     private void Spawn()
     {
         foreach (Transform item in _board)
         {
-            _boardTile.Add(item.gameObject);
+            boardTile.Add(item.gameObject);
             int random = Random.Range(0, _spriteTile.Length);
             item.name = random.ToString();
             item.GetComponent<Image>().sprite = _spriteTile[random];
         }
-    }
-
-    private void Update()
-    {
-
     }
 }
